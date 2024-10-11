@@ -1,0 +1,41 @@
+.search-form {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto; /* Center the form */
+}
+
+.search-form-elem {
+    padding: 1.4rem 2.8rem;
+    border-radius: 3.6rem;
+}
+
+.search-form-elem .form-control {
+    font-size: 2rem;
+    padding: 0.6rem;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .search-form-elem {
+        padding: 1rem; /* Reduce padding for smaller screens */
+    }
+    
+    .search-form-elem .form-control {
+        font-size: 1.5rem; /* Reduce font size for smaller screens */
+    }
+}
+
+/* Further adjustments for very small screens */
+@media (max-width: 480px) {
+    .search-form-elem {
+        padding: 0.8rem; /* Further reduce padding */
+    }
+
+    .search-form-elem .form-control {
+        font-size: 1.2rem; /* Further reduce font size */
+    }
+    
+    .search-form {
+        padding: 0 1rem; /* Add some horizontal padding */
+    }
+}
